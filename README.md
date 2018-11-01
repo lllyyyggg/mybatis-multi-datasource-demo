@@ -17,5 +17,4 @@ com.lanyage.multidatasource.autoconfig.UserAutoConfig
 被配置的类会在被集成到别的spring项目后进行自动实例化。
 
 
-
- 
+如果设计到事务可以用 `@Transactional(transactionManager = "dynamicTransactionManager")`的注解进行标注
